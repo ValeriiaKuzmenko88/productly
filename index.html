@@ -20,7 +20,7 @@
         </a>
 
         <nav>
-          <ul>
+          <ul class="links-nav">
             <li>
               <a href="">Product</a>
             </li>
@@ -88,7 +88,7 @@
             </li>
           </ul>
 
-          <button>SIGN UP NOW</button>
+          <button class="btn">SIGN UP NOW</button>
         </section>
 
         <section class="professionals">
@@ -132,13 +132,28 @@
               personality of the person.
             </p>
             <ul>
-              <li>Never worry about overpaying for your energy again.</li>
               <li>
-                We will only switch you to energy companies that we trust and
-                will treat you right
+                <svg width="35px" height="35px" class="product-svg">
+                  <use xlink:href="./images/checkmark.svg"></use>
+                </svg>
+                <p>Never worry about overpaying for your energy again.</p>
               </li>
               <li>
-                We track the markets daily and know where the savings are.
+                <svg width="35px" height="35px" class="product-svg">
+                  <use xlink:href="./images/checkmark.svg"></use>
+                </svg>
+                <p>
+                  We will only switch you to energy companies that we trust and
+                  will treat you right
+                </p>
+              </li>
+              <li>
+                <svg width="35px" height="35px" class="product-svg">
+                  <use xlink:href="./images/checkmark.svg"></use>
+                </svg>
+                <p>
+                  We track the markets daily and know where the savings are.
+                </p>
               </li>
             </ul>
           </div>
@@ -174,44 +189,30 @@
         </section>
       </main>
 
-      <footer class="footer">
-        <img src="images/logo.svg" alt="productly logo" class="logo" />
-
+      <footer>
+      <a href="#" class="logo">
+        <svg width="187" height="32">
+          <use xlink:href="./images/logo.svg"></use>
+        </svg>
+      </a>
+      <div class="footer-descr">
         <ul>
-          <li>
-            <a href="">About Us</a>
-          </li>
-          <li>
-            <a href="">Blog</a>
-          </li>
-          <li>
-            <a href="">Contact</a>
-          </li>
-          <li>
-            <a href="">FAQ</a>
-          </li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">FAQ</a></li>
         </ul>
-
         <ul>
-          <li>
-            <a href="">Disclaimer</a>
-          </li>
-          <li>
-            <a href="">Financing</a>
-          </li>
-          <li>
-            <a href="">Privacy Policy</a>
-          </li>
-          <li>
-            <a href="">Terms of Service</a>
-          </li>
+          <li><a href="#">Disclaimer</a></li>
+          <li><a href="#">Financing</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
         </ul>
-
-        <form action="" class="subscribe">
-          <input type="email" name="" id="" />
-          <button>Sign up Now</button>
+        <form action="">
+          <input type="tel" placeholder="Your phone number" />
+          <button type="submit">Sign up Now</button>
         </form>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
